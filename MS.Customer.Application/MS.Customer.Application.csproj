@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\CustomerServices\qahes0km.id3~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MS.Customer.Application.Abstraction\MS.Customer.Application.Abstraction.csproj" />
+    <ProjectReference Include="..\MS.Customer.Persistence\MS.Customer.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

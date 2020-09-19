@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FakeItEasy" Version="6.2.1" />
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MS.Customer.Application.Abstraction\MS.Customer.Application.Abstraction.csproj" />
+    <ProjectReference Include="..\MS.Customer.Application\MS.Customer.Application.csproj" />
+    <ProjectReference Include="..\MS.Customer.Domain\MS.Customer.Domain.csproj" />
+    <ProjectReference Include="..\MS.Customer.Persistence\MS.Customer.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
