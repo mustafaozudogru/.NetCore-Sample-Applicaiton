@@ -1,5 +1,5 @@
-# .NetCore-Microservice-Sample
-This sample shows how to create and dockerize a microservice application with .Net Core.
+# .NetCore-Sample Application
+This sample shows how to create and dockerize an application with .Net Core.
 
 I used Entity Framework Core, an in-memory database (to keep it simple) and the repository pattern.
 
